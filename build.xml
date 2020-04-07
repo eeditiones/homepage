@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="e-editiones" default="xar">
+    <xmlproperty file="expath-pkg.xml"/><!-- Adjust path below to match location of your npm binary -->
+    <property name="npm" value="/usr/local/bin/npm"/>
+    <property name="project.version" value="${package(version)}"/>
+    <property name="project.app" value="${package(abbrev)}"/>
+    <property name="build.dir" value="build"/>
+    <target name="xar">
+        <mkdir dir="${build.dir}"/>
+        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* node_modules/**"/>
+    </target>
+    <target name="xar-complete" depends="npm.build,xar"/>
+    <target name="npm.build">
+        <echo message="Calling npm to generate bundle files ..."/>
+        <exec executable="${npm}" outputproperty="npm.output">
+            <arg line="run-script"/>
+            <arg line="start"/>
+        </exec>
+        <echo message="${npm.output}"/>
+    </target>
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete dir="resources/scripts" includes="*.js *.map"/>
+        <delete dir="resources/images/leaflet"/>
+        <delete dir="resources/images/openseadragon"/>
+        <delete dir="resources/i18n/common"/>
+        <delete dir="resources/css" includes="leaflet/** prismjs/**"/>
+        <delete dir="resources/lib"/>
+    </target>
+</project>

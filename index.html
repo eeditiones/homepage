@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title data-template="config:app-title">e-editiones</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&amp;family=Quicksand:wght@500&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
+    <custom-style>
+        <style>
+            body {
+                --pb-menubar-background-color: #9E6848;
+                --pb-content-font-family: var(--pb-base-font-family);
+                hyphens: auto;
+            }
+            main {
+                margin: 0 20px 0 20px;
+            }
+            @media (max-width: 1023px) {
+                main {
+                    margin: 0 8px 0 8px;
+                }
+            }
+            .tp-title {
+                /* text-shadow: 6px -1px 12px #4e4d4d; */
+                font-family: "Quicksand", Verdana, "Helvetica", sans-serif;
+                color: #806C61;
+                font-size: 96px;
+                font-weight: 500;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 920px;
+            }
+            [condensed-title] {
+                font-family: "Quicksand", Verdana, "Helvetica", sans-serif;
+                font-size: 28px;
+                font-weight: 400;
+                flex: 0 0;
+                min-width: fit-content;
+                margin-right: 60px;
+            }
+            pb-view, .upload {
+                width: 920px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .splash {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: #f0f0f0;
+            }
+            .splash .tp-title {
+                width: auto;
+            }
+            .menubar {
+                align-items: center;
+                justify-content: flex-start;
+            }
+            .menubar a {
+                display: inline-block;
+            }
+            
+        </style>
+    </custom-style>
+</head>
+
+<body lang="de">
+    <pb-page data-template="pages:pb-page" unresolved="unresolved">
+        <pb-document id="document1" path="homepage.xml" odd="editiones"></pb-document>
+        <app-header-layout>
+            <app-header slot="header" condenses="condenses" fixed="fixed" effects="resize-title parallax-background blend-background">
+                <app-toolbar class="menubar" height="64px">
+                    <h3 condensed-title="condensed-title">e-editiones</h3>
+                    <a href="e-editiones-arbeitsfelder-verein.docx.xml">Arbeitsfelder</a>
+                    <a href="Statuten_e-editiones.docx.xml">Statuten</a>
+                    <pb-restricted login="login">
+                        <paper-menu-button>
+                            <a href="#" slot="dropdown-trigger">
+                                <pb-i18n key="menu.admin.title">Admin</pb-i18n>
+                            </a>
+                            <paper-listbox slot="dropdown-content">
+                                <paper-item>
+                                    <pb-download data-template="pages:edit-odd-link" src="document1">
+                                        <pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>
+                                    </pb-download>
+                                </paper-item>
+                            </paper-listbox>
+                        </paper-menu-button>
+                    </pb-restricted>                  
+                    <pb-media-query query="(min-width: 1024px)">                        
+                        <!-- language selector -->
+                        <pb-lang name="lang" data-template="pages:languages"/>
+                    </pb-media-query>
+                    <pb-login id="login" group="tei">
+                        <iron-icon slot="icon" icon="account-circle"/>
+                    </pb-login>
+                </app-toolbar>
+                <h1 class="tp-title" main-title="main-title">e-editiones</h1>
+                <pb-progress indeterminate="indeterminate" bottom-item="bottom-item" subscribe="docs"/>
+            </app-header>
+
+            <main>
+                <pb-view src="document1" view="single" xpath="//body"></pb-view>
+            </main>
+            <pb-restricted class="upload" login="login" can-write="can-write">
+                <paper-card data-i18n="[heading]upload.upload" heading="Upload">
+                    <div class="card-content">
+                        <pb-upload id="upload" emit="docs" subscribe="docs" accept=".xml, .tei, .odd, .docx"></pb-upload>
+                    </div>
+                </paper-card>
+            </pb-restricted>
+        </app-header-layout>
+        <paper-dialog id="errorDialog">
+            <h2>
+                    <pb-i18n key="dialogs.error">Error</pb-i18n>
+                </h2>
+            <paper-dialog-scrollable/>
+            <div class="buttons">
+                <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
+                    <pb-i18n key="dialogs.close">Close</pb-i18n>
+                </paper-button>
+            </div>
+        </paper-dialog>
+    </pb-page>
+    <div class="splash">
+        <h1 class="tp-title">e-editiones</h1>
+    </div>
+</body>
+
+</html>
