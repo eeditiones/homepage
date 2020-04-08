@@ -19,49 +19,82 @@
 <body lang="de">
     <pb-page data-template="pages:pb-page" unresolved="unresolved">
         <pb-document id="document1" path="homepage.xml" odd="editiones"></pb-document>
-        <app-header-layout>
-            <app-header slot="header" condenses="condenses" fixed="fixed" effects="resize-title parallax-background blend-background">
-                <app-toolbar class="menubar" height="64px">
-                    <h3 condensed-title="condensed-title">e-editiones</h3>
-                    <a href="e-editiones-arbeitsfelder-verein.docx.xml">Arbeitsfelder</a>
-                    <a href="Statuten_e-editiones.docx.xml">Statuten</a>
-                    <pb-restricted login="login">
-                        <paper-menu-button>
-                            <a href="#" slot="dropdown-trigger">
-                                <pb-i18n key="menu.admin.title">Admin</pb-i18n>
-                            </a>
-                            <paper-listbox slot="dropdown-content">
-                                <paper-item>
-                                    <pb-download data-template="pages:edit-odd-link" src="document1">
-                                        <pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>
-                                    </pb-download>
-                                </paper-item>
-                            </paper-listbox>
-                        </paper-menu-button>
-                    </pb-restricted>                  
-                    <pb-media-query query="(min-width: 1024px)">                        
-                        <!-- language selector -->
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+                <div class="drawer-content">
+                    <pb-media-query query="(max-width: 1023px)">
+                        <ul>
+                            <li><a href="e-editiones-arbeitsfelder-verein.docx.xml">Arbeitsfelder</a></li>
+                            <li><a href="Statuten_e-editiones.docx.xml">Statuten</a></li>
+                        </ul>
+                        <pb-restricted login="login">
+                            <paper-menu-button>
+                                <a href="#" slot="dropdown-trigger">
+                                    <pb-i18n key="menu.admin.title">Admin</pb-i18n>
+                                </a>
+                                <paper-listbox slot="dropdown-content">
+                                    <paper-item>
+                                        <pb-download data-template="pages:edit-odd-link" src="document1">
+                                            <pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>
+                                        </pb-download>
+                                    </paper-item>
+                                </paper-listbox>
+                            </paper-menu-button>
+                        </pb-restricted>
                         <pb-lang name="lang" data-template="pages:languages"/>
+                        <pb-login id="login" group="tei">
+                            <iron-icon slot="icon" icon="account-circle"/>
+                        </pb-login>
                     </pb-media-query>
-                    <pb-login id="login" group="tei">
-                        <iron-icon slot="icon" icon="account-circle"/>
-                    </pb-login>
-                </app-toolbar>
-                <h1 class="tp-title" main-title="main-title">e-editiones</h1>
-                <pb-progress indeterminate="indeterminate" bottom-item="bottom-item" subscribe="docs"/>
-            </app-header>
+                </div>
+            </app-drawer>
+            <app-header-layout>
+                <app-header slot="header" condenses="condenses" fixed="fixed" effects="resize-title parallax-background blend-background">
+                    <app-toolbar class="menubar" height="64px">
+                        <h3 condensed-title="condensed-title">e-editiones</h3>
+                        <pb-media-query query="(min-width: 1024px)">
+                            <div class="menu-items">
+                                <a href="e-editiones-arbeitsfelder-verein.docx.xml">Arbeitsfelder</a>
+                                <a href="Statuten_e-editiones.docx.xml">Statuten</a>
+                                <pb-restricted login="login">
+                                    <paper-menu-button>
+                                        <a href="#" slot="dropdown-trigger">
+                                            <pb-i18n key="menu.admin.title">Admin</pb-i18n>
+                                        </a>
+                                        <paper-listbox slot="dropdown-content">
+                                            <paper-item>
+                                                <pb-download data-template="pages:edit-odd-link" src="document1">
+                                                    <pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>
+                                                </pb-download>
+                                            </paper-item>
+                                        </paper-listbox>
+                                    </paper-menu-button>
+                                </pb-restricted>
+                            </div>          
+                            <!-- language selector -->
+                            <pb-lang name="lang" data-template="pages:languages"/>
+                            <pb-login id="login" group="tei">
+                                <iron-icon slot="icon" icon="account-circle"/>
+                            </pb-login>
+                        </pb-media-query>
+                        <paper-icon-button id="drawer-toggle" icon="icons:menu" drawer-toggle="drawer-toggle"></paper-icon-button>
+                    </app-toolbar>
+                    <h1 class="tp-title" main-title="main-title">e-editiones</h1>
+                    <pb-progress indeterminate="indeterminate" bottom-item="bottom-item" subscribe="docs"/>
+                </app-header>
 
-            <main>
-                <pb-view src="document1" view="single" xpath="//body"></pb-view>
-            </main>
-            <pb-restricted class="upload" login="login" can-write="can-write">
-                <paper-card data-i18n="[heading]upload.upload" heading="Upload">
-                    <div class="card-content">
-                        <pb-upload id="upload" emit="docs" subscribe="docs" accept=".xml, .tei, .odd, .docx"></pb-upload>
-                    </div>
-                </paper-card>
-            </pb-restricted>
-        </app-header-layout>
+                <main>
+                    <pb-view src="document1" view="single" xpath="//body"></pb-view>
+                </main>
+                <pb-restricted class="upload" login="login" can-write="can-write">
+                    <paper-card data-i18n="[heading]upload.upload" heading="Upload">
+                        <div class="card-content">
+                            <pb-upload id="upload" emit="docs" subscribe="docs" accept=".xml, .tei, .odd, .docx"></pb-upload>
+                        </div>
+                    </paper-card>
+                </pb-restricted>
+            </app-header-layout>
+        </app-drawer-layout>
     </pb-page>
     <div class="splash">
         <h1 class="tp-title">e-editiones</h1>

@@ -34,7 +34,6 @@ main {
     font-weight: 400;
     flex: 0 0;
     min-width: 160px;
-    margin-right: 20px;
 }
 
 @media (max-width: 1023px) {
@@ -75,8 +74,42 @@ pb-view, .upload {
 .menubar {
     align-items: center;
     justify-content: flex-start;
+    position: relative;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+@media (max-width: 1023px) {
+    .menu-items {
+        display: none;
+    }
+}
+
+#drawer-toggle {
+    position: absolute;
+    right: 10px;
+}
+
+@media (min-width: 1024px) {
+    #drawer-toggle {
+        display: none;
+    }
 }
 
 .menubar a {
     display: inline-block;
+}
+
+.drawer-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.drawer-content a {
+    display: block;
+    margin-bottom: 10px;
 }
