@@ -2,3 +2,17 @@ a {
     color: #9E6848;
     text-decoration: underline;
 }
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+ol.numbers {
+    list-style-type: decimal;
+}
+
+@media (max-width: 1023px) {
+    p.tei-p {
+        text-align: left;
+    }
+}

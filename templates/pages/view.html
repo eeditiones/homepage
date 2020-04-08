@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <html>
     <head>
         <meta charset="utf-8"/>
@@ -15,67 +14,8 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Oswald&amp;family=Quicksand:wght@500&amp;display=swap" rel="stylesheet"/>
         <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="resources/css/editiones.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
-        <style>
-            body {
-                --pb-menubar-background-color: #9E6848;
-                --pb-content-font-family: var(--pb-base-font-family);
-                hyphens: auto;
-            }
-            main {
-                margin: 0 20px 0 20px;
-            }
-            
-            @media (max-width: 1023px) {
-                main {
-                    margin: 0 8px 0 8px;
-                }
-            }
-            
-            .title {
-                font-family: "Quicksand", Verdana, "Helvetica", sans-serif;
-                font-size: 28px;
-                font-weight: 400;
-                margin-right: 60px;
-            }
-            .tp-title {
-                /* text-shadow: 6px -1px 12px #4e4d4d; */
-                font-family: "Quicksand", Verdana, "Helvetica", sans-serif;
-                color: #806C61;
-                font-size: 96px;
-                font-weight: 500;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 920px;
-            }
-            pb-view, .upload {
-                width: 920px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            .splash {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: fixed;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                background: #f0f0f0;
-            }
-            .splash .tp-title {
-                width: auto;
-            }
-            .menubar {
-                align-items: center;
-                justify-content: flex-start;
-            }
-            .menubar a {
-                display: inline-block;
-            }
-        </style>
     </head>
 
     <body>
@@ -87,8 +27,8 @@
                         <h3 class="title">
                             <a href="index.html">e-editiones</a>
                         </h3>
-                        <a href="e-editiones-arbeitsfelder-verein.docx.xml">Arbeitsfelder</a>
-                        <a href="Statuten_e-editiones.docx.xml">Statuten</a>
+                        <a class="docs" href="e-editiones-arbeitsfelder-verein.docx.xml">Arbeitsfelder</a>
+                        <a class="docs" href="Statuten_e-editiones.docx.xml">Statuten</a>
                         <pb-restricted login="login">
                             <paper-menu-button>
                                 <a href="#" slot="dropdown-trigger">
@@ -115,7 +55,7 @@
                 </app-header>
 
                 <main>
-                    <pb-view src="document1" view="single" xpath="//body"></pb-view>
+                    <pb-view src="document1" view="single" xpath="//body"/>
                 </main>
             </app-header-layout>
         </pb-page>
