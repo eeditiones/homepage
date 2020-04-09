@@ -98,8 +98,8 @@ line-height: 1.2;
                     </model>
                 </elementSpec>
                 <elementSpec ident="body" mode="change">
-                    <model predicate="div[@xml:lang=$parameters?language]" behaviour="block">
-                        <param name="content" value="div[@xml:lang=$parameters?language]" />
+                    <model predicate="div[@xml:lang = tokenize($parameters?language, '-')[1]]" behaviour="block">
+                        <param name="content" value="div[@xml:lang = tokenize($parameters?language, '-')[1]]" />
                     </model>
                     <model behaviour="block" />
                 </elementSpec>
