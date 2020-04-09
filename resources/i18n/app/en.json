@@ -1,5 +1,6 @@
 {
-    "myapp": {
-        "title": "Foo"
+    "app": {
+        "statutes": "Statutes",
+        "strategy": "Strategy"
     }
 }

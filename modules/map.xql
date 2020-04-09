@@ -9,6 +9,16 @@ import module namespace nav="http://www.tei-c.org/tei-simple/navigation/tei" at 
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 
+declare function mapping:editiones($root as element(), $userParams as map(*)) {
+    if (
+        util:document-name($root) = 'e-editiones-arbeitsfelder-verein.docx.xml'
+        and $userParams?language = 'en'
+    ) then
+        doc(util:collection-name($root) || "/e-editiones-arbeitsfelder-verein-EN.docx.xml")//tei:body
+    else
+        $root
+};
+
 (:~
  : For the Van Gogh letters: find the page break in the translation corresponding
  : to the one shown in the transcription.

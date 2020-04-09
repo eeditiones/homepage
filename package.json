@@ -1,23 +1,23 @@
 {
-  "devDependencies" : {
-    "rollup" : "^1.21.0",
-    "@rollup/plugin-replace" : "^2.3.1",
-    "@rollup/plugin-node-resolve" : "latest",
-    "rimraf" : "latest",
-    "rollup-plugin-terser" : "latest",
-    "rollup-plugin-copy" : "latest"
+  "devDependencies": {
+    "rollup": "^1.21.0",
+    "@rollup/plugin-replace": "^2.3.1",
+    "@rollup/plugin-node-resolve": "latest",
+    "rimraf": "latest",
+    "rollup-plugin-terser": "latest",
+    "rollup-plugin-copy": "latest"
   },
-  "version" : "1.0.0",
-  "scripts" : {
-    "watch" : "rollup -c rollup.config.js --watch",
-    "build" : "rollup -c rollup.config.js",
-    "build:production" : "rollup -c rollup.config.js --environment BUILD:production",
-    "clean" : "rimraf resources/css/leaflet resources/images/leaflet resources/images/openseadragon resources/lib/ resources/css/prismjs resources/i18n/common",
-    "start" : "npm install && npm run build:production"
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "rollup -c rollup.config.js --watch",
+    "build": "rollup -c rollup.config.js",
+    "build:production": "rollup -c rollup.config.js --environment BUILD:production",
+    "clean": "rimraf resources/css/leaflet resources/images/leaflet resources/images/openseadragon resources/lib/ resources/css/prismjs resources/i18n/common",
+    "start": "npm install && npm run build:production"
   },
-  "dependencies" : {
-    "@teipublisher/pb-components" : "local"
+  "dependencies": {
+    "@teipublisher/pb-components": "git+https://gitlab.existsolutions.com/tei-publisher/pb-components.git#master"
   },
-  "description" : "e-editiones",
-  "name" : "e-editiones"
+  "description": "e-editiones",
+  "name": "e-editiones"
 }

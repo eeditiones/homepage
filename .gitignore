@@ -2,3 +2,10 @@ transform/
 node_modules/
 build/
 .vscode
+resources/css/leaflet
+resources/css/prismjs
+resources/i18n/common
+resources/images/leaflet
+resources/images/openseadragon
+resources/scripts
+resources/lib

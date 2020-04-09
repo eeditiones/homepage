@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>e-editiones Homepage</title>
@@ -15,55 +15,86 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>Der Verein e-editiones (in Gründung) ist ein internationaler Zusammenschluss zwischen
-            kleineren und grösseren Editionsunternehmungen, Gedächtnisinstitutionen und 
-            Einzelforschenden. Ziel ist die Förderung offener Standards und darauf 
-            basierender freier Software für digitale Editionen.</p>
-         <p>Während digitale Editionen sich 
-            strukturell und inhaltlich erheblich voneinander unterscheiden können, gibt es doch 
-            weitgehende Überschneidungen in Bezug auf die technische Basisfunktionalität, die 
-            jede Edition anbieten muss. Ausgangspunkt für die Initiatoren des Vereins ist die gemeinsame
-            Nutzung von
-            <ref target="https://teipublisher.com">TEI Publisher</ref> - 
-            ursprünglich hervorgegangen aus einem Vorhaben der
-            TEI Community. Dieser erlaubt es Editionen, sich nach dem Baukastenprinzip aus vorgefertigten 
-            Bausteinen zu bedienen.</p>
-         <p>Solche Software braucht jedoch den beständigen Austausch 
-            zwischen den Entwickelnden und den Benutzenden, welche die fachlichen Anforderungen 
-            ihrer jeweiligen Editionsprojekte kennen und einbringen. Der Verein möchte diesen 
-            Informationsaustausch sowie die Kommunikation zwischen den Editionsprojekten selbst auf
-            feste Beine stellen.</p>
-         <div>
-            <head>Arbeitsfelder des Vereins:</head>
-            <list>
-               <item>Koordination von Entwicklungen im Open Source Bereich</item>
-               <item>Förderung von Informationsaustausch und Kommunikation</item>
-               <item>Einwerbung von Mitteln zur Weiterentwicklung</item>
-               <item>Hostingangebote für digitale Editionen</item>
-            </list>
-            <p>Eine detailliertere Beschreibung finden Sie in unserem 
-               <ref target="e-editiones-arbeitsfelder-verein.docx.xml">Strategiepapier</ref>.</p>
+         <div xml:lang="de">
+            <p>Der Verein e-editiones (in Gründung) ist ein internationaler Zusammenschluss zwischen kleineren und grösseren Editionsunternehmungen,
+               Gedächtnisinstitutionen und Einzelforschenden. Ziel ist die Förderung offener Standards und darauf basierender freier Software für digitale
+               Editionen.</p>
+            <p>Während digitale Editionen sich strukturell und inhaltlich erheblich voneinander unterscheiden können, gibt es doch weitgehende Überschneidungen
+               in Bezug auf die technische Basisfunktionalität, die jede Edition anbieten muss. Ausgangspunkt für die Initiatoren des Vereins ist die gemeinsame
+               Nutzung von <ref target="https://teipublisher.com">TEI Publisher</ref> - ursprünglich hervorgegangen aus einem Vorhaben der TEI Community. Dieser
+               erlaubt es Editionen, sich nach dem Baukastenprinzip aus vorgefertigten Bausteinen zu bedienen.</p>
+            <p>Solche Software braucht jedoch den beständigen Austausch zwischen den Entwickelnden und den Benutzenden, welche die fachlichen Anforderungen
+               ihrer jeweiligen Editionsprojekte kennen und einbringen. Der Verein möchte diesen Informationsaustausch sowie die Kommunikation zwischen den
+               Editionsprojekten selbst auf feste Beine stellen.</p>
+            <div>
+               <head>Arbeitsfelder des Vereins:</head>
+               <list>
+                  <item>Koordination von Entwicklungen im Open Source Bereich</item>
+                  <item>Förderung von Informationsaustausch und Kommunikation</item>
+                  <item>Einwerbung von Mitteln zur Weiterentwicklung</item>
+                  <item>Hostingangebote für digitale Editionen</item>
+               </list>
+               <p>Eine detailliertere Beschreibung finden Sie in unserem <ref target="e-editiones-arbeitsfelder-verein.docx.xml">Strategiepapier</ref>.</p>
+            </div>
+            <div>
+               <head>Gründungsmitglieder</head>
+               <list>
+                  <item>Rechtsquellenstiftung des Schweizerischen Juristenvereins</item>
+                  <item>Stiftsbibliothek St. Gallen</item>
+                  <item>Karl Barth-Stiftung, Basel</item>
+                  <item>Ortsbürgergemeinde der Stadt St. Gallen, Stadtarchiv, Missivenedition</item>
+                  <item>eXist Solutions GmbH, Lenzkirch/Berlin</item>
+               </list>
+            </div>
+            <div>
+               <head>Gründung und Sitz des Vereins</head>
+               <p>Die Gründung des Vereins erfolgt am 4. Mai 2020, 10 Uhr, virtuell in St. Gallen. Über weitere Gründungsmitglieder würden wir uns sehr
+                  freuen.</p>
+               <p>Nehmen Sie mit uns Kontakt auf: <ref target="mailto:info@e-editiones.org">info@e-editiones.org</ref>.</p>
+            </div>
          </div>
-         <div>
-            <head>Gründungsmitglieder</head>
-            <list>
-               <item>Rechtsquellenstiftung des Schweizerischen Juristenvereins</item>
-               <item>Stiftsbibliothek St. Gallen</item>
-               <item>Karl Barth-Stiftung, Basel</item>
-               <item>Ortsbürgergemeinde der Stadt St. Gallen, Stadtarchiv, Missivenedition</item>
-               <item>eXist Solutions GmbH, Lenzkirch/Berlin</item>
-            </list>
-         </div>
-         <div>
-            <head>Gründung und Sitz des Vereins</head>
-            <p>Die Gründung des Vereins erfolgt am 4. Mai 2020, 10 Uhr, virtuell in St. Gallen.
-               Über weitere Gründungsmitglieder würden wir uns sehr freuen.</p>
-            <p>Nehmen Sie mit uns Kontakt auf: 
-               <ref target="mailto:info@e-editiones.org">info@e-editiones.org</ref>.</p>
+         <div xml:lang="en">
+            <p>The society e-editions (in foundation) is an international association between smaller and larger
+               edition projects, cultural heritage institutions and single researchers. Its goal is to promote 
+               open standards for digital editions and free software based on them.</p>
+            <p>While digital editions may differ considerably in structure and content, there is a large overlap in terms of the 
+               basic technical functionality that each edition must offer. Starting point for the initiators of the 
+               association is their shared use of <ref target="https://teipublisher.com">TEI Publisher</ref> - which originated
+               from a project of the TEI community. This toolbox allows editions to reuse existing building blocks in
+               a modular way.</p>
+            <p>However, such software requires a constant exchange between developers and users, who are familiar with the 
+               technical requirements of their respective edition projects. The Society would like to put this exchange of 
+               information as well as the communication between edition projects on a firm footing.</p>
+            <div>
+               <head>Focus of the Society:</head>
+               <list>
+                  <item>Coordinating developments in open source software</item>
+                  <item>Promotion of information exchange and communication</item>
+                  <item>Fundraising</item>
+                  <item>Hosting services for digital editions</item>
+               </list>
+               <p>A more detailed description can be found in our <ref target="e-editiones-arbeitsfelder-verein.docx.xml">strategy paper</ref>.</p>
+            </div>
+            <div>
+               <head>Foundation Members</head>
+               <list>
+                  <item>Rechtsquellenstiftung des Schweizerischen Juristenvereins</item>
+                  <item>Stiftsbibliothek St. Gallen</item>
+                  <item>Karl Barth-Stiftung, Basel</item>
+                  <item>Ortsbürgergemeinde der Stadt St. Gallen, Stadtarchiv, Missivenedition</item>
+                  <item>eXist Solutions GmbH, Lenzkirch/Berlin</item>
+               </list>
+            </div>
+            <div>
+               <head>Foundation and Seat of the Society</head>
+               <p>The foundation will take place in St. Gallen on May 4th, 2020, 10 am CEST. The meeting will be 
+                  held virtually. We would love to welcome more foundation members.</p>
+               <p>Please contact us if you would be interested: <ref target="mailto:info@e-editiones.org">info@e-editiones.org</ref>.</p>
+            </div>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>

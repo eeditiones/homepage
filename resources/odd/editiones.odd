@@ -70,9 +70,11 @@
                         <param name="level" value="count(ancestor::div)" />
                         <outputRendition xml:space="preserve">
             
+            
             font-family: "Oswald", Verdana, "Helvetica", sans-serif;
 font-weight: 400 !important;
 line-height: 1.2;
+            
             
             </outputRendition>
                     </model>
@@ -89,12 +91,17 @@ line-height: 1.2;
                 <elementSpec ident="list" mode="change">
                     <model predicate="@rendition" behaviour="list" useSourceRendition="true">
                         <param name="content" value="item" />
-                        a
                     </model>
                     <model predicate="$parameters?doc = 'e-editiones-arbeitsfelder-verein.docx.xml'" behaviour="list" cssClass="numbers" />
                     <model behaviour="list">
                         <param name="content" value="item" />
                     </model>
+                </elementSpec>
+                <elementSpec ident="body" mode="change">
+                    <model predicate="div[@xml:lang=$parameters?language]" behaviour="block">
+                        <param name="content" value="div[@xml:lang=$parameters?language]" />
+                    </model>
+                    <model behaviour="block" />
                 </elementSpec>
             </schemaSpec>
         </body>
