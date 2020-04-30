@@ -71,9 +71,11 @@
                         <outputRendition xml:space="preserve">
             
             
+            
             font-family: "Oswald", Verdana, "Helvetica", sans-serif;
 font-weight: 400 !important;
 line-height: 1.2;
+            
             
             
             </outputRendition>
@@ -85,6 +87,12 @@ line-height: 1.2;
                         <outputRendition xml:space="preserve">
             border: 1px solid black; padding: 5px;
             </outputRendition>
+                    </model>
+                    <model predicate="parent::body" behaviour="block">
+                        <param name="lang" value="@xml:lang" />
+                        <pb:template xmlns="" xml:space="preserve">
+                            <div lang="[[lang]]">[[content]]</div>
+                        </pb:template>
                     </model>
                     <model behaviour="block" />
                 </elementSpec>
@@ -102,6 +110,13 @@ line-height: 1.2;
                         <param name="content" value="div[@xml:lang = tokenize($parameters?language, '-')[1]]" />
                     </model>
                     <model behaviour="block" />
+                </elementSpec>
+                <elementSpec ident="item" mode="change">
+                    <model behaviour="listItem">
+                        <outputRendition xml:space="preserve">
+            hyphens: none;
+            </outputRendition>
+                    </model>
                 </elementSpec>
             </schemaSpec>
         </body>
