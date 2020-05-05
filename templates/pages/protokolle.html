@@ -14,14 +14,13 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Oswald&amp;family=Quicksand:wght@500&amp;display=swap" rel="stylesheet"/>
         <link rel="stylesheet" href="resources/css/theme.css"/>
-        <link rel="stylesheet" href="resources/css/editiones.css"/>
-        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <link rel="stylesheet" href="resources/css/editiones.css"/>        
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
     </head>
 
     <body>
         <pb-page data-template="pages:pb-page" unresolved="unresolved" require-language="require-language"
         locales="./resources/i18n">
-            <pb-document id="document1" data-template="pages:pb-document"/>
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer slot="drawer" align="right">
                     <div class="drawer-content">
@@ -90,8 +89,7 @@
                     </app-header>
 
                     <main>
-                        <pb-view src="document1" view="single" xpath="//body" use-language="use-language"
-                            map="editiones"></pb-view>
+                        <pb-markdown data-template="app:markdown"></pb-markdown>
                     </main>
                 </app-header-layout>
             </app-drawer-layout>

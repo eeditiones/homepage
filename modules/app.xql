@@ -10,6 +10,8 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 
 declare
     %templates:wrap
-function app:foo($node as node(), $model as map(*)) {
-    <p>Dummy templating function.</p>
+function app:markdown($node as node(), $model as map(*), $doc as xs:string) {
+    let $md := util:binary-doc($config:data-root || "/" || $doc)
+    return
+        <template>{util:binary-to-string($md)}</template>
 };

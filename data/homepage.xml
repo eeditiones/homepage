@@ -19,82 +19,138 @@
    <text>
       <body>
          <div xml:lang="de">
-            <p>Der Verein e-editiones (in Gründung) ist ein internationaler Zusammenschluss zwischen kleineren und grösseren Editionsunternehmungen,
-               Gedächtnisinstitutionen und Einzelforschenden. Ziel ist die Förderung offener Standards und darauf basierender freier Software für digitale
-               Editionen.</p>
-            <p>Während digitale Editionen sich strukturell und inhaltlich erheblich voneinander unterscheiden können, gibt es doch weitgehende Überschneidungen
-               in Bezug auf die technische Basisfunktionalität, die jede Edition anbieten muss. Ausgangspunkt für die Initiatoren des Vereins ist die gemeinsame
-               Nutzung von <ref target="https://teipublisher.com">TEI Publisher</ref> - ursprünglich hervorgegangen aus einem Vorhaben der TEI Community. Dieser
-               erlaubt es Editionen, sich nach dem Baukastenprinzip aus vorgefertigten Bausteinen zu bedienen.</p>
-            <p>Solche Software braucht jedoch den beständigen Austausch zwischen den Entwickelnden und den Benutzenden, welche die fachlichen Anforderungen
-               ihrer jeweiligen Editionsprojekte kennen und einbringen. Der Verein möchte diesen Informationsaustausch sowie die Kommunikation zwischen den
-               Editionsprojekten selbst auf feste Beine stellen.</p>
+            <p>Der Verein e-editiones ist ein internationaler Zusammenschluss zwischen
+               kleineren und grösseren Editionsunternehmungen, Gedächtnisinstitutionen und
+               Einzelforschenden. Ziel ist die Förderung offener Standards und darauf basierender
+               freier Software für digitale Editionen.</p>
+            <p>Während digitale Editionen sich strukturell und inhaltlich erheblich voneinander
+               unterscheiden können, gibt es doch weitgehende Überschneidungen in Bezug auf die
+               technische Basisfunktionalität, die jede Edition anbieten muss. Ausgangspunkt für die
+               Initiatoren des Vereins ist die gemeinsame Nutzung von <ref
+                  target="https://teipublisher.com">TEI Publisher</ref> – ursprünglich
+               hervorgegangen aus einem Vorhaben der TEI Community. Dieser erlaubt es Editionen,
+               sich nach dem Baukastenprinzip aus vorgefertigten Bausteinen zu bedienen.</p>
+            <p>Solche Software braucht jedoch den beständigen Austausch zwischen den Entwickelnden
+               und den Benutzenden, welche die fachlichen Anforderungen ihrer jeweiligen
+               Editionsprojekte kennen und einbringen. Der Verein möchte diesen
+               Informationsaustausch sowie die Kommunikation zwischen den Editionsprojekten selbst
+               auf feste Beine stellen.</p>
             <div>
-               <head>Arbeitsfelder des Vereins:</head>
+               <head>Arbeitsfelder des Vereins</head>
                <list>
                   <item>Koordination von Entwicklungen im Open Source Bereich</item>
                   <item>Förderung von Informationsaustausch und Kommunikation</item>
                   <item>Einwerbung von Mitteln zur Weiterentwicklung</item>
                   <item>Hostingangebote für digitale Editionen</item>
                </list>
-               <p>Eine detailliertere Beschreibung finden Sie in unserem <ref target="e-editiones-arbeitsfelder-verein.docx.xml">Strategiepapier</ref>.</p>
+               <p>Eine detailliertere Beschreibung finden Sie in unserem <ref
+                     target="e-editiones-arbeitsfelder-verein.docx.xml">Strategiepapier</ref>.</p>
             </div>
             <div>
-               <head>Gründungsmitglieder</head>
+               <head>Mitglieder</head>
                <list>
-                  <item>Rechtsquellenstiftung des Schweizerischen Juristenvereins</item>
-                  <item>Stiftsbibliothek St. Gallen</item>
-                  <item>Karl Barth-Stiftung, Basel</item>
-                  <item>Ortsbürgergemeinde der Stadt St. Gallen, Stadtarchiv</item>
-                  <item>eXist Solutions GmbH, Lenzkirch/Berlin</item>
-                  <item>Sulamith Gehr, Basler Edition der Bernoulli-Briefwechsel</item>
+                  <item><ref target="https://www.ssrq-sds-fds.ch/">Rechtsquellenstiftung des Schweizerischen Juristenvereins</ref></item>
+                  <item><ref target="https://www.stiftsbezirk.ch/de/stiftsbibliothek/">Stiftsbibliothek St.Gallen</ref></item>
+                  <item><ref target="https://karlbarth.unibas.ch/de/">Karl Barth-Stiftung</ref>, Basel</item>
+                  <item><ref target="https://stadtarchiv.ch/">Stadtarchiv der Ortsbürgergemeinde der Stadt St.Gallen</ref></item>
+                  <item><ref target="http://existsolutions.com/">eXist Solutions GmbH</ref>, Lenzkirch/Berlin</item>
+                  <item><ref target="https://gbl-gubler.ch/">GBL Gubler AG</ref>, Frauenfeld</item>
+                  <item>Elisa Beshero-Bondar, ab 1. Juli 2020: Program Chair of Digital Media, Arts, and Technology Professor of Digital Humanities |  Director of the <ref target="https://sites.psu.edu/psudhlab/">Digital Humanities Lab at Penn State Erie</ref>, the Behrend College, Member of the TEI Technical Council</item>
+                  <item><ref target="https://hcommons.org/members/pibburns/">Philip R. «Pib»
+                        Burns</ref>, Senior Developer, Research Computing Services Northwestern
+                     University</item>
+                  <item><ref target="https://www.ncl.ac.uk/elll/staff/profile/jamescummings.html">James Cummings</ref>, Senior Lecturer in Late Medieval Literature and Digital Humanities, Newcastle University; member of the TEI Consortium's Board of Directors</item>
+                  <item><ref target="https://www.histsem.uni-kiel.de/de/das-institut-1/abteilungen/professur-fuer-geschichte-des-spaeten-mittelalters-sowie-wirtschafts-und-sozialgeschichte/team/anne-diekjobst">Anne Diekjobst</ref>, Christian-Albrechts-Universität zu Kiel, u.a. Edition des Zinsrodels des Klosters Feldbach</item>
+                  <item>Sulamith Gehr, <ref target="https://ub.unibas.ch/bernoulli/index.php/Hauptseite">Basler Edition der Bernoulli-Briefwechsel</ref></item>
+                  <item>Martin Mueller, Professor Emeritus of English &amp; Classics, Northwestern University, u.a. Leiter der <ref target="https://earlyprint.org/">Early Print</ref> Edition</item>
+                  <item>Roberta Padlina, Coordinator <ref target="https://www.nie-ine.ch/">NIE-INE</ref>, Universität Basel</item>
+                  <item><ref target="https://hfm-karlsruhe.academia.edu/DennisRied">Dennis Ried</ref>, Musikwissenschaftler, Reger-Werkausgabe (Max-Reger-Institut, Karlsruhe), Forschungsdatenmanagement Joachim-Raff-Archiv (Lachen/SZ)</item>
+                  <item>Roman Sigg, <ref target="https://www.steinamrhein.ch/xml_1/internet/de/application/d3/d723/d724/f346.cfm">Stadtarchivar Stein am Rhein</ref></item>
+                  <item><ref target="https://www.phsg.ch/de/team/prof-dr-christian-sinn">Christian Sinn</ref>, Professor, Präsident der Masterarbeitskommission Studienbereichsleiter Sprachen und Literatur, Pädagogische Hochschule St.Gallen</item>
+                  <item>Anna Skolimowska, Dr. hab., Head of the <ref
+                        target="http://fontes.ibi.uw.edu.pl/">Laboratory for Source Editing &amp;
+                        Digital Humanities</ref>, Faculty of «Artes Liberales», University of
+                     Warsaw</item>
+                  <item><ref target="https://uzh.academia.edu/ClaudiaSutter">Claudia Sutter</ref>, freie Historikerin, Archivarin, Stein am Rhein, Urbar des Dominikanerinnenklosters St.&#160;Katharinen St.&#160;Gallen</item>
+                  <item>Cristina Vertan, Projektleiterin von <ref
+                        target="https://www.inf.uni-hamburg.de/inst/dmp/hercore/projects.html"
+                        >«Annotation und Analyse von historischen Dokumenten»</ref>, Arbeitsstelle
+                     Computerphilologie, Universität Hamburg</item>
+                  <item><ref target="https://online.uni-graz.at/kfu_online/wbForschungsportal.cbShowPortal?pPersonNr=80075">Georg Vogeler</ref>, Professor Digital Humanities, Zentrum für Informationsmodellierung, Universität Graz</item>
+                  <item>Joseph Wicentowski, Historiker, <ref target="https://history.state.gov">Office of the Historian</ref>, U.S. Department of State</item>
+                  <item>Christian von Zimmermann, Privatdozent, Leiter <ref target="https://www.gotthelf.unibe.ch/">Forschungsstelle Jeremias Gotthelf</ref>, Bern</item>
                </list>
             </div>
             <div>
                <head>Gründung und Sitz des Vereins</head>
-               <p>Die Gründung des Vereins erfolgt am 4. Mai 2020, 10 Uhr, virtuell in St. Gallen. Über weitere Gründungsmitglieder würden wir uns sehr
-                  freuen.</p>
-               <p>Nehmen Sie mit uns Kontakt auf: <ref target="mailto:info@e-editiones.org">info@e-editiones.org</ref>.</p>
+               <p>Die Gründung des Vereins erfolgte per Videokonferen am 4. Mai 2020, 10 Uhr in St.&#160;Gallen. Über weitere Mitglieder würden
+                  wir uns sehr freuen.</p>
+               <p>Nehmen Sie mit uns Kontakt auf: <ref target="mailto:info@e-editiones.org"
+                     >info@e-editiones.org</ref>.</p>
             </div>
          </div>
          <div xml:lang="en">
-            <p>The society e-editions (in foundation) is an international association between smaller and larger
-               edition projects, cultural heritage institutions and single researchers. Its goal is to promote 
-               open standards for digital editions and free software based on them.</p>
-            <p>While digital editions may differ considerably in structure and content, there is a large overlap in terms of the 
-               basic technical functionality that each edition must offer. Starting point for the initiators of the 
-               association is their shared use of <ref target="https://teipublisher.com">TEI Publisher</ref> - which originated
-               from a project of the TEI community. This toolbox allows editions to reuse existing building blocks in
-               a modular way.</p>
-            <p>However, such software requires a constant exchange between developers and users, who are familiar with the 
-               technical requirements of their respective edition projects. The Society would like to put this exchange of 
-               information as well as the communication between edition projects on a firm footing.</p>
+            <p>The society e-editiones is an international association between
+               smaller and larger edition projects, cultural heritage institutions and single
+               researchers. Its goal is to promote open standards for digital editions and free
+               software based on them.</p>
+            <p>While digital editions may differ considerably in structure and content, there is a
+               large overlap in terms of the basic technical functionality that each edition must
+               offer. Starting point for the initiators of the association is their shared use of
+                  <ref target="https://teipublisher.com">TEI Publisher</ref> – which originated from
+               a project of the TEI community. This toolbox allows editions to reuse existing
+               building blocks in a modular way.</p>
+            <p>However, such software requires a constant exchange between developers and users, who
+               are familiar with the technical requirements of their respective edition projects.
+               The Society would like to put this exchange of information as well as the
+               communication between edition projects on a firm footing.</p>
             <div>
-               <head>Focus of the Society:</head>
+               <head>Focus of the Society</head>
                <list>
                   <item>Coordinating developments in open source software</item>
                   <item>Promotion of information exchange and communication</item>
                   <item>Fundraising</item>
                   <item>Hosting services for digital editions</item>
                </list>
-               <p>A more detailed description can be found in our <ref target="e-editiones-arbeitsfelder-verein.docx.xml">strategy paper</ref>.</p>
+               <p>A more detailed description can be found in our <ref
+                     target="e-editiones-arbeitsfelder-verein.docx.xml">strategy paper</ref>.</p>
             </div>
             <div>
-               <head>Foundation Members</head>
+               <head>Members</head>
                <list>
-                  <item>Rechtsquellenstiftung des Schweizerischen Juristenvereins</item>
-                  <item>Stiftsbibliothek St. Gallen</item>
-                  <item>Karl Barth-Stiftung, Basel</item>
-                  <item>Ortsbürgergemeinde der Stadt St. Gallen, Stadtarchiv</item>
-                  <item>eXist Solutions GmbH, Lenzkirch/Berlin</item>
-                  <item>Sulamith Gehr, Basler Edition der Bernoulli-Briefwechsel</item>
+                  <item><ref target="https://www.ssrq-sds-fds.ch/en/home/">Rechtsquellenstiftung des Schweizerischen Juristenvereins</ref></item>
+                  <item><ref target="https://www.stiftsbezirk.ch/de/stiftsbibliothek/">Stiftsbibliothek St.Gallen</ref></item>
+                  <item><ref target="https://karlbarth.unibas.ch/de/">Karl Barth-Stiftung</ref>, Basel</item>
+                  <item><ref target="https://stadtarchiv.ch/">Stadtarchiv der Ortsbürgergemeinde der Stadt St.Gallen</ref></item>
+                  <item><ref target="http://existsolutions.com/">eXist Solutions GmbH</ref>, Lenzkirch/Berlin</item>
+                  <item><ref target="https://gbl-gubler.ch/">GBL Gubler AG</ref>, Frauenfeld</item>
+                  <item>Elisa Beshero-Bondar, after July 1, 2020: Program Chair of Digital Media, Arts, and Technology Professor of Digital Humanities |  Director of the <ref target="https://sites.psu.edu/psudhlab/">Digital Humanities Lab at Penn State Erie</ref>, the Behrend College, Member of the TEI Technical Council</item>
+                  <item><ref target="https://hcommons.org/members/pibburns/">Philip R. «Pib» Burns</ref>, Senior Developer, Research Computing Services Northwestern University</item>
+                  <item><ref target="https://www.ncl.ac.uk/elll/staff/profile/jamescummings.html">James Cummings</ref>, Senior Lecturer in Late Medieval Literature and Digital Humanities, Newcastle University; member of the TEI Consortium's Board of Directors</item>
+                  <item><ref target="https://www.histsem.uni-kiel.de/de/das-institut-1/abteilungen/professur-fuer-geschichte-des-spaeten-mittelalters-sowie-wirtschafts-und-sozialgeschichte/team/anne-diekjobst">Anne Diekjobst</ref>, Christian-Albrechts-Universität zu Kiel, u.a. Zinsrodel des Klosters Feldbach</item>
+                  <item>Sulamith Gehr, <ref target="https://ub.unibas.ch/bernoulli/index.php/Hauptseite">Basler Edition der Bernoulli-Briefwechsel</ref></item>
+                  <item>Martin Mueller, Professor Emeritus of English &amp; Classics, Northwestern University, project lead of <ref target="https://earlyprint.org/">Early Print</ref></item>
+                  <item>Roberta Padlina, Coordinator <ref target="https://www.nie-ine.ch/">NIE-INE</ref>, Universität Basel</item>
+                  <item><ref target="https://hfm-karlsruhe.academia.edu/DennisRied">Dennis Ried</ref>, Musikwissenschaftler, Reger-Werkausgabe (Max-Reger-Institut, Karlsruhe), Forschungsdatenmanagement Joachim-Raff-Archiv (Lachen/SZ)</item>
+                  <item>Roman Sigg, <ref target="https://www.steinamrhein.ch/xml_1/internet/de/application/d3/d723/d724/f346.cfm">Stadtarchivar Stein am Rhein</ref></item>
+                  <item><ref target="https://www.phsg.ch/de/team/prof-dr-christian-sinn">Christian Sinn</ref>, Professor, Präsident der Masterarbeitskommission Studienbereichsleiter Sprachen und Literatur, Pädagogische Hochschule St.Gallen</item>
+                  <item>Anna Skolimowska, Dr. hab., Head of the <ref target="http://fontes.ibi.uw.edu.pl/">Laboratory for Source Editing &amp; Digital Humanities</ref>, Faculty of «Artes Liberales», University of Warsaw</item>
+                  <item><ref target="https://uzh.academia.edu/ClaudiaSutter">Claudia Sutter</ref>, freie Historikerin, Archivarin, Urbar des Dominikanerinnenklosters St.&#160;Katharinen St.&#160;Gallen</item>
+                  <item>Cristina Vertan, Projektleiterin von <ref
+                        target="https://www.inf.uni-hamburg.de/inst/dmp/hercore/projects.html"
+                        >«Annotation und Analyse von historischen Dokumenten»</ref>, Arbeitsstelle
+                     Computerphilologie, Universität Hamburg</item>
+                  <item><ref target="https://online.uni-graz.at/kfu_online/wbForschungsportal.cbShowPortal?pPersonNr=80075">Georg Vogeler</ref>, Professor Digital Humanities, Zentrum für Informationsmodellierung, Universität Graz</item>
+                  <item>Joseph Wicentowski, Historian, <ref target="https://history.state.gov">Office of the Historian</ref>, U.S. Department of State</item>
+                  <item>Christian von Zimmermann, Privatdozent, Leiter <ref target="https://www.gotthelf.unibe.ch/">Forschungsstelle Jeremias Gotthelf</ref>, Bern</item>
                </list>
             </div>
             <div>
                <head>Foundation and Seat of the Society</head>
-               <p>The foundation will take place in St. Gallen on May 4th, 2020, 10 am CEST. The meeting will be 
-                  held virtually. We would love to welcome more foundation members.</p>
-               <p>Please contact us if you would be interested: <ref target="mailto:info@e-editiones.org">info@e-editiones.org</ref>.</p>
+               <p>The foundation has taken place in St.&#160;Gallen on May 4th, 2020, 10 am CEST. The
+                  meeting was held virtually. We would love to welcome more members.</p>
+               <p>Please contact us if you would be interested: <ref
+                     target="mailto:info@e-editiones.org">info@e-editiones.org</ref>.</p>
             </div>
          </div>
       </body>

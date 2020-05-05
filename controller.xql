@@ -244,7 +244,21 @@ else if (ends-with($exist:resource, ".html")) then (
         else
             ()
     return
-        if (ends-with($exist:resource, ".epub")) then
+        if (ends-with($exist:resource, ".md")) then
+            <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+                <forward url="{$exist:controller}/templates/pages/protokolle.html"></forward>
+                <view>
+                    <forward url="{$exist:controller}/modules/view.xql">
+                        <add-parameter name="doc" value="{$path}{$id}"/>
+                        <set-header name="Cache-Control" value="no-cache"/>
+                    </forward>
+                </view>
+                <error-handler>
+                    <forward url="{$exist:controller}/error-page.html" method="get"/>
+                    <forward url="{$exist:controller}/modules/view.xql"/>
+                </error-handler>
+            </dispatch>
+        else if (ends-with($exist:resource, ".epub")) then
             <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
                 <forward url="{$exist:controller}/modules/lib/get-epub.xql">
                     <add-parameter name="id" value="{$path}{$id}"/>

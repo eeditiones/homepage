@@ -8,6 +8,12 @@ main {
     margin: 0 20px 0 20px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
 .title {
     font-family: "Quicksand", Verdana, "Helvetica", sans-serif;
     font-size: 28px;
@@ -36,6 +42,10 @@ main {
     min-width: 160px;
 }
 
+pb-markdown {
+    font-size: var(--pb-content-font-size);
+}
+
 @media (max-width: 1023px) {
     main {
         margin: 0 8px 0 8px;
@@ -48,7 +58,7 @@ main {
     }
 }
 
-pb-view, .upload {
+pb-view, .upload, pb-markdown {
     max-width: 920px;
     margin-left: auto;
     margin-right: auto;

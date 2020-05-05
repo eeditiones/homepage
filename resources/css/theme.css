@@ -238,7 +238,9 @@ pb-popover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font: var(--pb-heading-font);
+    font-family: var(--pb-heading-font-family);
+    font-weight: var(--pb-heading-font-weight);
+    line-height: var(--pb-heading-line-height);
 }
 
 pb-drawer {
