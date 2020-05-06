@@ -2,6 +2,7 @@
     "app": {
         "statutes": "Statutes",
         "strategy": "Strategy",
-        "foundation-protocol": "Meeting Minutes"
+        "foundation-protocol": "Meeting Minutes",
+        "contact": "Contact"
     }
 }

@@ -246,7 +246,7 @@ else if (ends-with($exist:resource, ".html")) then (
     return
         if (ends-with($exist:resource, ".md")) then
             <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
-                <forward url="{$exist:controller}/templates/pages/protokolle.html"></forward>
+                <forward url="{$exist:controller}/templates/pages/markdown.html"></forward>
                 <view>
                     <forward url="{$exist:controller}/modules/view.xql">
                         <add-parameter name="doc" value="{$path}{$id}"/>
