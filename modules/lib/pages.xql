@@ -459,13 +459,13 @@ declare function pages:pb-page($node as node(), $model as map(*), $template as x
     let $model := map:merge(
         (
             $model,
-            map { "app": request:get-context-path() || substring-after($config:app-root, "/db") }
+            map { "app": $config:context-path }
         )
     )
     return
         element { node-name($node) } {
             $node/@*,
-            attribute app-root { request:get-context-path() || substring-after($config:app-root, "/db") },
+            attribute app-root { $config:context-path },
             attribute template { $template },
             templates:process($node/*, $model)
         }

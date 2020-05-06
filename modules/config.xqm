@@ -274,6 +274,11 @@ declare variable $config:data-exclude :=
     doc($config:data-root || "/taxonomy.xml")/tei:TEI
 ;
 
+declare variable $config:context-path :=
+    request:get-context-path() || substring-after($config:app-root, "/db")
+    (: map { "app": "https://e-editiones.org/" } :)
+;
+
 declare variable $config:default-odd :="editiones.odd";
 
 declare variable $config:odd := $config:default-odd;
