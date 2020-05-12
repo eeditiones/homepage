@@ -23,3 +23,12 @@ Please join the [slack workspace](https://join.slack.com/t/e-editiones/shared_in
 ## Twitter
 
 We will post news via our [twitter account](https://twitter.com/EEditiones). If you would like to share something about a project or forthcoming events, please contact the board or mention @EEditiones so we can retweet.
+
+## Postal Address
+e-editiones  
+
+c/o Stadtarchiv der Ortsbürgergemeinde St.Gallen
+
+Notkerstrasse 22
+
+CH-9000 St. Gallen
