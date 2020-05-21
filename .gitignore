@@ -9,3 +9,4 @@ resources/images/leaflet
 resources/images/openseadragon
 resources/scripts
 resources/lib
+.DS_Store
