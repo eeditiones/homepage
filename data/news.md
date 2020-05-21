@@ -1,27 +1,42 @@
 
 # News and Events
 
+## Online Course «TEI Publisher From Scratch»
+
+Save the Date and enroll now (the number of participants is limited to
+15; E-Editiones society members have priority)
+
+A 3-part online course: 8th, 15th and 22nd of June 4-5 pm (CEST)
+
+You should also reserve some time for practice between each online session.
+Register with a mail to info@e-editiones.org
+
+Basic knowlegde of TEI is a prerequisite
+
+
+### Linklist for XML, TEI, XPATH and CSS
+
+If you want to catch up and acquire basic knowledge of TEI, these links are for you:
+
+#### XML
+ https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html
+
+#### TEI
+https://teibyexample.org/
+https://tei-c.org/guidelines/
+
+#### XPATH
+https://www.w3schools.com/xml/xpath_intro.asp
+
+#### CSS
+https://wiki.selfhtml.org/wiki/CSS/Tutorials
+
+#### Schools of IDE
+https://www.i-d-e.de/aktivitaeten/schools/
+
+---
 ## If you missed it ...
 
-the recorded live stream of our community event is available on youtube:
+the recorded live stream of our first community event on May 18th 2020 is available on youtube:
 
 https://www.youtube.com/watch?v=LNbuyeh-vew
-
-## Save the  date: first community event on May 18th
-
-we would like to invite you to our first virtual community event, which will take place on Monday, **May 18th 2020, 16:00 CET**. Join us for the event on jitsi:
-
-https://meet.jit.si/e-editiones-events
-
-Please watch our [twitter feed](https://twitter.com/EEditiones) for status announcements in case we encounter technical problems before or during the event.
-
-### 1. Public event
-
-* 16:00  Welcome and presentation of e-editiones.org - by Andreas Kränzle
-* 16:10  A short introduction to TEI Publisher for digital editions - by Wolfgang Meier
-* 16:30  Questions and discussion
-
-### 2. Members meeting
-
-* 17:00 Introduction of the board and the members
-* 17:30 Open space for questions, suggestions, ideas, getting to know each other
