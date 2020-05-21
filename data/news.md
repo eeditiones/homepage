@@ -44,4 +44,4 @@ https://www.i-d-e.de/aktivitaeten/schools/
 
 the recorded live stream of our first community event on May 18th 2020 is available on youtube:
 
-https://www.youtube.com/watch?v=LNbuyeh-vew
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LNbuyeh-vew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
