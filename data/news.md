@@ -1,7 +1,7 @@
 
 # News and Events
 
-## Online Course «TEI Publisher From Scratch»
+## «Stay Home Learn TEI Publisher From Scratch» Online Course
 
 Save the Date and enroll now (the number of participants is limited to
 15; E-Editiones society members have priority)
@@ -9,29 +9,34 @@ Save the Date and enroll now (the number of participants is limited to
 A 3-part online course: 8th, 15th and 22nd of June 4-5 pm (CEST)
 
 You should also reserve some time for practice between each online session.
+
 Register with a mail to info@e-editiones.org
 
 Basic knowlegde of TEI is a prerequisite
-
 
 ### Linklist for XML, TEI, XPATH and CSS
 
 If you want to catch up and acquire basic knowledge of TEI, these links are for you:
 
-#### XML
- https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html
+XML
 
-#### TEI
+https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html
+
+TEI
+
 https://teibyexample.org/
 https://tei-c.org/guidelines/
 
-#### XPATH
+XPATH
+
 https://www.w3schools.com/xml/xpath_intro.asp
 
-#### CSS
+CSS
+
 https://wiki.selfhtml.org/wiki/CSS/Tutorials
 
-#### Schools of IDE
+Schools of IDE
+
 https://www.i-d-e.de/aktivitaeten/schools/
 
 ---
