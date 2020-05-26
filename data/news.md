@@ -25,6 +25,7 @@ https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html
 TEI
 
 https://teibyexample.org/
+https://de.dariah.eu/en/tei-tutorial
 https://tei-c.org/guidelines/
 
 XPATH
@@ -38,6 +39,9 @@ https://wiki.selfhtml.org/wiki/CSS/Tutorials
 Schools of IDE
 
 https://www.i-d-e.de/aktivitaeten/schools/
+
+Different architectures for TEI-Editions with eXist-DB
+[The integration of XML databases and content management systems in digital editions](https://www.balisage.net/Proceedings/vol23/html/Birnbaum01/BalisageVol23-Birnbaum01.html)
 
 ---
 ## If you missed it ...
