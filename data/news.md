@@ -20,28 +20,29 @@ If you want to catch up and acquire basic knowledge of TEI, these links are for 
 
 XML
 
-https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html
+- https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html
 
 TEI
 
-https://teibyexample.org/
-https://de.dariah.eu/en/tei-tutorial
-https://tei-c.org/guidelines/
+- https://teibyexample.org/
+- https://de.dariah.eu/en/tei-tutorial
+- https://tei-c.org/guidelines/
 
 XPATH
 
-https://www.w3schools.com/xml/xpath_intro.asp
+- https://www.w3schools.com/xml/xpath_intro.asp
 
 CSS
 
-https://wiki.selfhtml.org/wiki/CSS/Tutorials
+- https://wiki.selfhtml.org/wiki/CSS/Tutorials
 
 Schools of IDE
 
-https://www.i-d-e.de/aktivitaeten/schools/
+- https://www.i-d-e.de/aktivitaeten/schools/
 
 Different architectures for TEI-Editions with eXist-DB
-[The integration of XML databases and content management systems in digital editions](https://www.balisage.net/Proceedings/vol23/html/Birnbaum01/BalisageVol23-Birnbaum01.html)
+
+- [The integration of XML databases and content management systems in digital editions](https://www.balisage.net/Proceedings/vol23/html/Birnbaum01/BalisageVol23-Birnbaum01.html)
 
 ---
 ## If you missed it ...
