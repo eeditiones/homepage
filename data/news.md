@@ -3,14 +3,29 @@
 
 ## «Stay Home Learn TEI Publisher From Scratch» Online Course
 
-Save the Date and enroll now (the number of participants is limited to
-15; E-Editiones society members have priority)
-
 A 3-part online course: 8th, 15th and 22nd of June 4-5 pm (CEST)
 
-You should also reserve some time for practice between each online session.
+More than 30 people expressed interest in the course, which would
+normally exceed our capacity. However, we decided to not reject anyone,
+but rather adjust the format to be able to handle the larger group. We
+would thus like to point out that
 
-Register with a mail to info@e-editiones.org
+* the course will mainly target beginners who wish to publish TEI
+documents and create a simple website for their edition. More advanced
+topics like in depth coverage of TEI Publisher 6, web components, layout
+and styling questions will be covered in a follow up event two weeks
+later (to be announced)
+* each week will start with a more lecture-like online session with Q&A
+afterwards
+* the online session will be recorded and made available on youtube for
+later viewing
+* there will be weekly assignments for the attendants to get some
+hands-on experience
+* participants are strongly encouraged to join a participants-only room
+(to be announced) on the e-editiones [slack](https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg) for asking questions, but also to help others with the assignments. We hope to have a lively discussion there and would love to see participants support each other.
+* please note that we only have a few tutors, so we cannot answer
+questions or help troubleshooting issues beyond the immediate scope of
+the course
 
 Basic knowlegde of TEI is a prerequisite
 
